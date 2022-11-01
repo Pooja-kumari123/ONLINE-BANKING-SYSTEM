@@ -1,0 +1,62 @@
+<div class="card-header text-center bg-dark text-white">
+    <div class="row align-items-center">
+           <div class="col-md-11">
+                  <h5>Welcome to Online Banking System</h5>
+           </div>
+           <div class="col-md-1">
+                 <i class="fa fa-question-circle float-right"></i>
+           </div>
+    </div>
+</div>
+<div class="row mt-5">
+    <!-- counter-card-1 start-->
+    <div class="col-md-12 col-xl-4" routerLink="/auth/admin/login">
+      <app-card [cardClass]="'counter-card-1'" [blockClass]="'card-body-big'">
+        <div class="row">
+          <div class="col-6 counter-card-icon">
+            <img src="../../assets/bank.jpg" class="logo" />
+          </div>
+          <div class="col-6  text-right">
+            <div class="counter-card-text">
+              <h3>Bank</h3>
+            </div>
+          </div>
+        </div>
+      </app-card>
+    </div>
+    <!-- counter-card-1 end-->
+  
+    <!-- counter-card-2 start -->
+    <div class="col-md-6 col-xl-4" routerLink="/auth/customer/login">
+      <app-card [cardClass]="'counter-card-2'" [blockClass]="'card-body-big'">
+        <div class="row">
+          <div class="col-6 counter-card-icon">
+            <img src="../../assets/customer.png" class="logo" />
+          </div>
+          <div class="col-6 text-right">
+            <div class="counter-card-text">
+              <h3>Customer</h3>
+            </div>
+          </div>
+        </div>
+      </app-card>
+    </div>
+    <!-- counter-card-2 end -->
+  
+    <!-- counter-card-3 start -->
+    <div class="col-md-6 col-xl-4" routerLink="/auth/login">
+      <app-card [cardClass]="'counter-card-3'" [blockClass]="'card-body-big'">
+        <div class="row">
+          <div class="col-6 counter-card-icon">
+            <img src="../../assets/net_banking.png" class="logo" />
+          </div>
+          <div class="col-6 text-right">
+            <div class="counter-card-text">
+              <h3>Net Banking</h3>
+            </div>
+          </div>
+        </div>
+      </app-card>
+    </div>
+    <!-- counter-card-3 end -->
+</div>
